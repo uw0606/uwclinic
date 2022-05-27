@@ -61,89 +61,89 @@ header h1 {
   display: none;
 }
 
-  /* 真太郎メニュー */
-.shintaro {
+  /* 北海道メニュー */
+.hkd {
   list-style: none;
   padding: 0; 
   margin: 0;  
 }
-.shintaro li {
+.hkd li {
   padding: 8px;
 }
-.shintaro li a {
+.hkd li a {
   color:rgb(247, 244, 244);
   text-decoration: none;
   cursor: pointer; 
 }
-.shintaro li a:hover {
+.hkd li a:hover {
   opacity: 0.5;
 }
-/* 信人メニュー */
-.nobuto {
+/* 東京メニュー */
+.tyo {
   list-style: none;
   padding: 0;
   margin: 0;  
 }
-.nobuto li {
+.tyo li {
   padding: 8px;
 }
-.nobuto li a {
+.tyo li a {
   color:rgb(247, 244, 244);
   text-decoration: none;
   cursor: pointer;
 }
-.nobuto li a:hover {
+.tyo li a:hover {
   opacity: 0.5;
 }
-/* 彰メニュー */
-.akira {
+/* 大阪 */
+.osa {
   list-style: none;
   padding: 0;
   margin: 0;  
 }
-.akira li {
+.osa li {
   padding: 8px;
 }
-.akira li a {
+.osa li a {
   color:rgb(247, 244, 244);
   text-decoration: none;
   cursor: pointer;
 }
-.akira li a:hover {
+.osa li a:hover {
   opacity: 0.5;
 }
-/* 克哉メニュー */
-.katsuya {
+/* 福岡 */
+.fuk {
   list-style: none;
   padding: 0;
   margin: 0;  
 }
-.katsuya li {
+.fuk li {
   padding: 8px;
 }
-.katsuya li a {
+.fuk li a {
   color:rgb(247, 244, 244);
   text-decoration: none;
   cursor: pointer;
 }
-.katsuya li a:hover {
+.fuk li a:hover {
   opacity: 0.5;
 }
-/* 誠果メニュー */
-.seika {
+/* その他メニュー */
+.otr {
   list-style: none;
   padding: 0;
   margin: 0;  
 }
-.seika li {
+.otr li {
   padding: 8px;
 }
-.seika li a {
+.otr li a {
   color:rgb(247, 244, 244);
   text-decoration: none;
   cursor: pointer;
 }
-.seika li a:hover {
+.otr li a:hover {
   opacity: 0.5;
 }
 
@@ -151,6 +151,12 @@ h2 {
   text-align: center;
   margin-top: 8px;
   padding: 56px 0 8px;
+  text-decoration: none;
+}
+
+.name {
+  font-size: 24px;
+  text-decoration: none;
 }
 
 
@@ -229,7 +235,7 @@ iframe {
   cursor: pointer;
 }
 
-.other {
+.detail {
   text-align: center;
   margin-bottom: 16px;;
 }
@@ -267,7 +273,6 @@ footer li a:hover {
   .tab li a {
     font-size: 14px;
   }
-
   main {
     width: 300px;
     margin: 0 auto;
@@ -275,14 +280,7 @@ footer li a:hover {
   nav ul {
     width:284px;
   }
-  .thumbnails {
-    display: grid;
-    grid-template-columns: repeat(5, 56px);
-    gap: 5px;
-  }
-  .thumbnails img {
-    width: 56px;
-  }
+  
 
   iframe {
     width: 400px;
