@@ -34,7 +34,7 @@
     instrument.addEventListener('click', () => {
       window.location.href = "https://uw0606.github.io/uwtools/"
    });
-    instrument.addEventListener('click', () => {
+    clinic.addEventListener('click', () => {
       window.location.href = "https://uw0606.github.io/uwmp/"
    });
 }
