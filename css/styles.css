@@ -267,9 +267,16 @@ nav li:hover {
 .animate.delay1 {
   transition-delay: .3s;
 }
+
 .animate.delay2 {
   transition-delay: .6s;
 }
+
+.animate:hover {
+  transition: none;
+  opacity: 0.5;
+}
+
 
 
 
@@ -316,8 +323,7 @@ footer li a:hover {
   }
 
   .othersite {
-    font-size: 12px;
-
+    font-size: 10px;
   }
 
   .sitemenu {
