@@ -95,7 +95,7 @@ header h1 {
 .tyo li a:hover {
   opacity: 0.5;
 }
-/* 大阪 */
+/* 大阪メニュー */
 .osa {
   list-style: none;
   padding: 0;
@@ -112,7 +112,7 @@ header h1 {
 .osa li a:hover {
   opacity: 0.5;
 }
-/* 福岡 */
+/* 福岡メニュー */
 .fuk {
   list-style: none;
   padding: 0;
@@ -220,25 +220,59 @@ nav li:hover {
 }
 
 
+/* サイトメニュー */
 
-/* マップ */
-
-.map {
-  margin: 0 auto;
-  text-align: center;
+.othersite {
+  padding: 64px 0;
 }
-
-iframe {
-  width: 600px;
-  height:450px; 
-  margin: 0 auto;
+.othersite section {
+  width:calc((100% - 32px) / 3);
+  background: rgb(231, 231, 231);
+  padding: 16px;
+  border-radius: 8px;
+  text-align: center;
   cursor: pointer;
 }
 
-.detail {
-  text-align: center;
-  margin-bottom: 16px;;
+.sitemenu {
+  margin: 0 86px 0 86px;
 }
+
+.sitemenu section + section {
+  margin-top: 16px;
+  margin: 0 0 0 46px;
+}
+.othersite .sitemenu {
+  display: flex;
+  gap: 16px;
+}
+
+.othersite  section + section {
+  margin-top: 0;
+}
+
+/* サイトメニューアニメーション */
+
+.animate {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity .6s, transform .6s;
+}
+
+.animate.appear {
+  opacity: 1;
+  transform: none;
+}
+
+.animate.delay1 {
+  transition-delay: .3s;
+}
+.animate.delay2 {
+  transition-delay: .6s;
+}
+
+
+
 
 /* フッター */
 footer {
@@ -280,11 +314,20 @@ footer li a:hover {
   nav ul {
     width:284px;
   }
-  
 
-  iframe {
-    width: 400px;
-    height:250px; 
+  .othersite {
+    font-size: 12px;
+
   }
+
+  .sitemenu {
+    margin: 0 32px 0 32px;
+  }
+
+  .sitemenu section + section {
+    margin-top: 16px;
+    margin: 0 0 0 16px;
+  }
+
 
 }
