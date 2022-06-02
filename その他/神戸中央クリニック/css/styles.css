@@ -1,0 +1,290 @@
+body {
+  margin: 0px;
+  font-family: Verdana, sans-serif;
+}
+
+header {
+  padding: 0 16px;
+}
+
+header h1 {
+  color: black;
+  font-size: 54px;
+  line-height: 64px;
+  text-align: center;
+  margin: 16px 0 16px 0;
+}
+
+
+
+
+/* タブメニュー */
+.container {
+  margin: 30px auto;
+  width: 500px;
+}
+.tab {
+  display: flex;
+  line-height: 40px;
+}
+.tab li {
+  width: 300px;
+}
+.tab li a {
+  display: inline-block;
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  padding: 8px 0;
+  color: #333;
+  text-decoration: none;
+  border-radius: 4px 4px 0 0;
+}
+.tab li a.active {
+  background: #333;
+  color: #fff;
+}
+.tab li a:not(.active):hover {
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+.content.active {
+  background: #333;
+  color: #fff;
+  min-height: auto;
+  margin: 0;
+  padding: 0;
+  display: block;
+  text-align: center;
+}
+.content {
+  display: none;
+}
+
+  /* 北海道メニュー */
+.hkd {
+  list-style: none;
+  padding: 0; 
+  margin: 0;  
+}
+.hkd li {
+  padding: 8px;
+}
+.hkd li a {
+  color:rgb(247, 244, 244);
+  text-decoration: none;
+  cursor: pointer; 
+}
+.hkd li a:hover {
+  opacity: 0.5;
+}
+/* 東京メニュー */
+.tyo {
+  list-style: none;
+  padding: 0;
+  margin: 0;  
+}
+.tyo li {
+  padding: 8px;
+}
+.tyo li a {
+  color:rgb(247, 244, 244);
+  text-decoration: none;
+  cursor: pointer;
+}
+.tyo li a:hover {
+  opacity: 0.5;
+}
+/* 大阪 */
+.osa {
+  list-style: none;
+  padding: 0;
+  margin: 0;  
+}
+.osa li {
+  padding: 8px;
+}
+.osa li a {
+  color:rgb(247, 244, 244);
+  text-decoration: none;
+  cursor: pointer;
+}
+.osa li a:hover {
+  opacity: 0.5;
+}
+/* 福岡 */
+.fuk {
+  list-style: none;
+  padding: 0;
+  margin: 0;  
+}
+.fuk li {
+  padding: 8px;
+}
+.fuk li a {
+  color:rgb(247, 244, 244);
+  text-decoration: none;
+  cursor: pointer;
+}
+.fuk li a:hover {
+  opacity: 0.5;
+}
+/* その他メニュー */
+.otr {
+  list-style: none;
+  padding: 0;
+  margin: 0;  
+}
+.otr li {
+  padding: 8px;
+}
+.otr li a {
+  color:rgb(247, 244, 244);
+  text-decoration: none;
+  cursor: pointer;
+}
+.otr li a:hover {
+  opacity: 0.5;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 8px;
+  padding: 56px 0 8px;
+  text-decoration: none;
+}
+
+.name {
+  font-size: 24px;
+  text-decoration: none;
+}
+
+
+/* スライドショー */
+main {
+  width: 600px;
+  margin: 0 auto;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#freedomeuwt-1 {
+  width: 100%;
+  height: 100%;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+img {
+  vertical-align: bottom;
+}
+nav {
+  margin: 8px;
+}
+nav ul {
+  display: flex;
+  width:584px;
+}
+nav li {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 12px;
+  padding: 4px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+} 
+nav li:hover {
+  background: #f8f8f8;
+}
+#prev, #next {
+  width: 100%;
+}
+.thumbnails {
+  display: grid;
+  grid-template-columns: repeat(4, 146px);
+  gap: 5px;
+}
+.thumbnails li {
+  cursor: pointer;
+  opacity: 0.6;
+}
+.thumbnails li:hover,
+.thumbnails li.current {
+  opacity: 1;
+}
+.thumbnails img {
+  width: 146px;
+  margin-bottom: 62px;
+}
+
+
+
+/* マップ */
+
+.map {
+  margin: 0 auto;
+  text-align: center;
+}
+
+iframe {
+  width: 600px;
+  height:450px; 
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.detail {
+  text-align: center;
+  margin-bottom: 16px;;
+}
+
+/* フッター */
+footer {
+  font-size: 12px;
+  text-align: center;
+  padding: 32px;
+  background: rgba(0, 0, 0, 0.6);
+  display: block;
+}
+footer li a {
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+footer li a:hover {
+  opacity: 0.5;
+}
+
+
+@media (max-width: 600px) {
+  #top {
+    font-size: 46px;
+  }
+
+  h2 {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 8px;
+    padding: 56px 0 8px;
+  }
+
+  .tab li a {
+    font-size: 14px;
+  }
+  main {
+    width: 300px;
+    margin: 0 auto;
+  }
+  nav ul {
+    width:284px;
+  }
+  
+
+  iframe {
+    width: 300px;
+    height:200px; 
+  }
+
+}
