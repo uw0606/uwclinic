@@ -237,7 +237,12 @@ nav li:hover {
 .sitemenu {
   margin: 0 86px 0 86px;
 }
+
 .sitemenu #instrument {
+  transform: translateY(50%)
+}
+
+.sitemenu #map {
   transform: translateY(50%)
 }
 
