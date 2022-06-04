@@ -31,11 +31,15 @@
 {
   const instrument = document.getElementById('instrument');
   const clinic = document.getElementById('clinic');
+  const map = document.getElementById('map');
     instrument.addEventListener('click', () => {
       window.location.href = "https://uw0606.github.io/uwtools/"
    });
     clinic.addEventListener('click', () => {
       window.location.href = "https://uw0606.github.io/uwclinic/"
+   });
+    map.addEventListener('click', () => {
+      window.location.href = "https://uw0606.github.io/uwmap/"
    });
 }
 
