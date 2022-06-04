@@ -237,6 +237,9 @@ nav li:hover {
 .sitemenu {
   margin: 0 86px 0 86px;
 }
+.sitemenu #instrument {
+  transform: translateY(50%)
+}
 
 .sitemenu section + section {
   margin-top: 16px;
