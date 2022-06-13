@@ -347,7 +347,7 @@ footer li a:hover {
   }
 
   .sitemenu {
-    margin: 0 32px 0 32px;
+    margin: 0 16px 0 16px;
   }
 
   .sitemenu section + section {
@@ -356,7 +356,7 @@ footer li a:hover {
   }
 
   .othersite .sitemenu {
-    grid-auto-rows: 48px;
+    grid-auto-rows: 60px;
     gap: 16px;
   }
 
