@@ -356,8 +356,8 @@ footer li a:hover {
   }
 
   .othersite .sitemenu {
-    grid-auto-rows: 58px;
-    gap: 18px;
+    grid-auto-rows: 60px;
+    gap: 16px;
   }
 
 
