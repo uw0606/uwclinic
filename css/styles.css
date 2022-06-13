@@ -244,6 +244,9 @@ nav li:hover {
 .sitemenu #map {
   transform: translateY(50%)
 }
+.sitemenu #camp {
+  transform: translateY(50%)
+}
 
 .sitemenu section + section {
   margin-top: 16px;
@@ -347,7 +350,7 @@ footer li a:hover {
   }
 
   .sitemenu {
-    margin: 0 16px 0 16px;
+    margin: 0 16px 0 0;
   }
 
   .sitemenu section + section {
